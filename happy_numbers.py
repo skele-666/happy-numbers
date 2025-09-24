@@ -7,8 +7,7 @@ def is_happy_num(n):
             return False
         seen.add(n)
 
-        str_n = str(n)
-        str_arr = list(str_n)
+        str_arr = list(str(n))
 
         num_arr = [int(i) for i in str_arr]
 
