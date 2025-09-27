@@ -8,7 +8,7 @@ def is_happy_num(n):
         seen.add(n)
         str_arr = list(str(n))
         num_arr = [int(i) for i in str_arr]
-        sqr_num_arr = [n**2 for n in num_arr]
+        sqr_num_arr = [i**2 for i in num_arr]
         n = sum(sqr_num_arr)
     return True
 
